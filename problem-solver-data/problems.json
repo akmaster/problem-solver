@@ -1,0 +1,18 @@
+[
+  {
+    "id": "317de675-a9a8-4c9d-b9de-14163359688b",
+    "title": "PHP Sözdizimi Hatası: Eksik Noktalı Virgül",
+    "description": "PHP kodumda '$ad = \"Ahmet\"' satırından sonra noktalı virgül eksik olduğu için 'syntax error, unexpected token \"echo\"' hatası alıyorum.",
+    "solution": "PHP'de her ifade noktalı virgül (;) ile sonlandırılmalıdır. Hatayı düzeltmek için eksik noktalı virgülü eklemeniz gerekir: '$ad = \"Ahmet\";'",
+    "category": "Yazılım",
+    "difficulty": "Kolay",
+    "tags": [
+      "PHP",
+      "Sözdizimi",
+      "Hata Ayıklama"
+    ],
+    "createdBy": "Sistem",
+    "createdAt": "2025-04-24T22:21:44.397Z",
+    "updatedAt": "2025-04-24T22:21:44.398Z"
+  }
+]
