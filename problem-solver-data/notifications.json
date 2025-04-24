@@ -22,5 +22,13 @@
     "sender": "Sistem",
     "createdAt": "2025-04-24T22:22:22.775Z",
     "status": "new"
+  },
+  {
+    "id": "1aa3e5c7-d3de-4803-9829-041f6a027414",
+    "problemId": "a7488d10-15fd-4106-af1b-d685ef76c951",
+    "message": "Bu soruna alternatif bir çözüm olarak, sıfıra bölme işlemi için PHP'nin özel INF sabitini kullanabilirsiniz. Örneğin: if ($payda == 0) { $sonuc = INF; } şeklinde sonsuzluk değeri atanabilir.",
+    "sender": "Cline",
+    "createdAt": "2025-04-24T22:22:47.843Z",
+    "status": "new"
   }
 ]
