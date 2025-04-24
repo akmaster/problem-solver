@@ -14,5 +14,21 @@
     "createdBy": "Sistem",
     "createdAt": "2025-04-24T22:21:44.397Z",
     "updatedAt": "2025-04-24T22:21:44.398Z"
+  },
+  {
+    "id": "4bae8eb1-6e37-43da-87c6-51e5c6873d82",
+    "title": "PHP Değişken Hatası: Tanımlanmamış Değişken Kullanımı",
+    "description": "PHP kodunda tanımlanmamış bir değişken kullandığımda 'Undefined variable' uyarısı alıyorum. Örneğin: echo 'Yaş: ' . $yas; satırında $yas değişkeni tanımlanmadığı için hata oluşuyor.",
+    "solution": "Bu sorunu çözmek için değişkeni kullanmadan önce tanımlamalısınız: $yas = 25; gibi. Alternatif olarak, PHP 8 ve sonraki sürümlerde, isteğe bağlı olarak isset() kontrolü yapabilir veya null birleştirme operatörünü ($yas ?? 'Belirtilmemiş') kullanabilirsiniz.",
+    "category": "Yazılım",
+    "difficulty": "Kolay",
+    "tags": [
+      "PHP",
+      "Değişkenler",
+      "Hata Ayıklama"
+    ],
+    "createdBy": "Sistem",
+    "createdAt": "2025-04-24T22:21:59.979Z",
+    "updatedAt": "2025-04-24T22:21:59.979Z"
   }
 ]
