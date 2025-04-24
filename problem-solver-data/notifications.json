@@ -14,5 +14,13 @@
     "sender": "Sistem",
     "createdAt": "2025-04-24T22:22:01.052Z",
     "status": "new"
+  },
+  {
+    "id": "1745533342775",
+    "problemId": "a7488d10-15fd-4106-af1b-d685ef76c951",
+    "message": "Yeni sorun eklendi: PHP Sıfıra Bölme Hatası",
+    "sender": "Sistem",
+    "createdAt": "2025-04-24T22:22:22.775Z",
+    "status": "new"
   }
 ]
