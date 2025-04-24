@@ -30,5 +30,21 @@
     "createdBy": "Sistem",
     "createdAt": "2025-04-24T22:21:59.979Z",
     "updatedAt": "2025-04-24T22:21:59.979Z"
+  },
+  {
+    "id": "a7488d10-15fd-4106-af1b-d685ef76c951",
+    "title": "PHP Sıfıra Bölme Hatası",
+    "description": "PHP kodunda sıfıra bölme işlemi yapıldığında 'Division by zero' hatası alıyorum. Örneğin $sonuc = 10 / 0; satırı bu hatayı oluşturuyor.",
+    "solution": "Matematiksel olarak sıfıra bölme tanımsızdır ve PHP'de hata üretir. Bu hatayı önlemek için bölme işlemi yapmadan önce payda değerinin sıfır olup olmadığını kontrol etmelisiniz. Örneğin:\n\n```php\n$payda = 0;\nif ($payda != 0) {\n    $sonuc = 10 / $payda;\n} else {\n    $sonuc = 'Sıfıra bölme hatası';\n}\n```\n\nAlternatif olarak try-catch bloğu kullanabilirsiniz:\n\n```php\ntry {\n    $sonuc = 10 / 0;\n} catch (DivisionByZeroError $e) {\n    $sonuc = 'Hata: ' . $e->getMessage();\n}\n```",
+    "category": "Yazılım",
+    "difficulty": "Orta",
+    "tags": [
+      "PHP",
+      "Matematiksel Hatalar",
+      "Hata Yakalama"
+    ],
+    "createdBy": "Sistem",
+    "createdAt": "2025-04-24T22:22:21.795Z",
+    "updatedAt": "2025-04-24T22:22:21.795Z"
   }
 ]
